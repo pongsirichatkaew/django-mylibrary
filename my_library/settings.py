@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'api.apps.ApiConfig'
 ]
 
 MIDDLEWARE = [
@@ -84,6 +86,16 @@ DATABASES = {
         'HOST': 'localhost'
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'mylibrarydb',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost'
+#     }
+# }
 
 
 
